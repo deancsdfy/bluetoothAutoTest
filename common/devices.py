@@ -5,12 +5,14 @@ from  utils.logger import Logger
 logger = Logger(logger='devices').getlog()
 
 class Devices():
+    def __init__(self):
+        self.c = Config()
     # 封装adb
     def shell(self,args):
         sys = platform.system()
         if sys == 'Windows':
             cmd = 'adb shell \"%s\"' % (str(args))
-        elif sys == 'OS X':
+        elif sys == 'Darwin':
             cmd = 'adb shell %s' % (str(args))
         else:
             raise RuntimeError('本工具暂不支持当前系统！')
@@ -49,15 +51,21 @@ class Devices():
         Rect = (w/2,0,w,h)
         return Rect
 
-    def getBTswitchXpath(self):
+    def getBTswitchPx(self):
         devicesName = self.getDevicesName()
         c = Config()
-        xpath = c.get('blueCheckBoxXpath').get(devicesName)
-        return xpath
+        px = c.get('blueSwitchPx').get(devicesName)
+        # str转typle
+        px = eval(repr(px).replace('\'',''))
+        return px
+    def installStannisDemo(self):
+        pack_path = self.c.pack_path
+        os.system('adb install {}'.format(pack_path))
+        print('1')
 
-# if __name__ == '__main__':
-#     d = Devices()
-#     print(d.getBTswitchXpath())
+if __name__ == '__main__':
+    d = Devices()
+    print(d.installStannisDemo())
 
 
 

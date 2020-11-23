@@ -33,29 +33,43 @@ class System():
         if bluetoothStatusb == True:
             logger.info('蓝牙已开启')
         elif bluetoothStatusb == False:
-            self.d.openBluetoothSet()
+            self.showNotification()
             sleep(1)
-            self.dr.xpath(self.d.getBTswitchXpath()).click()
+            print(self.d.getBTswitchPx())
+            self.dr.click(*self.d.getBTswitchPx())
             logger.info('点击蓝牙开关')
             sleep(1)
             if self.d.isBluetoothStatus() == True:
                 logger.info('蓝牙已开启')
+            else:
+                logger.error('蓝牙开启失败')
+            self.hideNotification()
 
     def closeBluetooth(self):
         bluetoothStatusb = self.d.isBluetoothStatus()
         if bluetoothStatusb == False:
             logger.info('蓝牙已关闭')
         elif bluetoothStatusb == True:
-            self.d.openBluetoothSet()
+            self.showNotification()
             sleep(1)
-            self.dr.xpath(self.d.getBTswitchXpath()).click()
+            self.dr.click(*self.d.getBTswitchPx())
             logger.info('点击蓝牙开关')
             sleep(1)
             if self.d.isBluetoothStatus() == False:
                 logger.info('蓝牙已关闭')
+            else:
+                logger.error('蓝牙关闭失败')
+
+    def startStannisDemo(self):
+        self.dr.app_start('com.kwai.video.stannisdemo')
+        logger.info('启动stannisDemo')
+
+    def stopStannisDemo(self):
+        self.dr.app_stop('com.kwai.video.stannisdemo')
+        logger.info('结束stannisDemo')
 
 if __name__ == '__main__':
     system = System()
     system.connectDevices()
     # system.killAllApp()
-    system.openBluetooth()
+    system.stopStannisDemo()

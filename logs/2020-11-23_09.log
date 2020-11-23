@@ -1,0 +1,12 @@
+2020-11-23 09:44:06,496[systemMethon][ connectDevices]INFO-sn：d160d04e 手机连接成功
+2020-11-23 09:44:06,615[devices][ openBluetoothSet]INFO-打开蓝牙系统设置页面
+2020-11-23 09:49:51,545[systemMethon][ connectDevices]INFO-sn：d160d04e 手机连接成功
+2020-11-23 09:49:51,731[systemMethon][ showNotification]INFO-下拉通知栏成功
+2020-11-23 09:51:23,747[systemMethon][ connectDevices]INFO-sn：d160d04e 手机连接成功
+2020-11-23 09:51:23,900[systemMethon][ showNotification]INFO-下拉通知栏成功
+2020-11-23 09:55:19,161[systemMethon][ connectDevices]INFO-sn：d160d04e 手机连接成功
+2020-11-23 09:55:19,320[systemMethon][ showNotification]INFO-下拉通知栏成功
+2020-11-23 09:56:19,121[systemMethon][ connectDevices]INFO-sn：d160d04e 手机连接成功
+2020-11-23 09:56:19,291[systemMethon][ showNotification]INFO-下拉通知栏成功
+2020-11-23 09:57:44,359[systemMethon][ connectDevices]INFO-sn：d160d04e 手机连接成功
+2020-11-23 09:57:44,505[systemMethon][ showNotification]INFO-下拉通知栏成功

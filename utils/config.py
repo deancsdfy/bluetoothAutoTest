@@ -11,6 +11,7 @@ from utils.file_read import YamlReader
 # 通过当前文件的绝对路径，其父级目录一定是框架的base目录，然后确定各层的绝对路径。如果你的结构不同，可自行修改。
 BASE_PATH = os.path.split(os.path.dirname(__file__))[0]
 DATA_PATH = os.path.join(BASE_PATH, 'data','data.yaml')
+PACK_PATH = os.path.join(BASE_PATH,'data','StannisDemo.apk')
 LOG_PATH = os.path.join(BASE_PATH, 'logs')
 REPORT_PATH = os.path.join(BASE_PATH, 'report')
 SCREENSHOTS_PATH = os.path.join(BASE_PATH,"screenshots",'')
@@ -20,12 +21,13 @@ CASE_PATH = os.path.join(BASE_PATH,'case','case.yaml')
 # EXCEL_PATH = os.path.join(BASE_PATH,'test','sqlconf','')
 
 class Config():
-    def __init__(self, config=DATA_PATH,case_data = CASE_PATH,screenshot = SCREENSHOTS_PATH):
+    def __init__(self, config=DATA_PATH,pack_path=PACK_PATH,case_data = CASE_PATH,screenshot = SCREENSHOTS_PATH):
         self.config = YamlReader(config).data
+        self.pack_path = pack_path
         # self.case_data = YamlReader(case_data).data
         # self.interface_data = YamlReader(interface_data).data
         # self.exe_ptah = EXE_PATH
-        self.screen_shot = screenshot
+        # self.screen_shot = screenshot
         # self.excel_pt = excel
 
 

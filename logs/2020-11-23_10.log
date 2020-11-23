@@ -1,0 +1,22 @@
+2020-11-23 10:07:44,011[systemMethon][ connectDevices]INFO-sn：d160d04e 手机连接成功
+2020-11-23 10:07:44,168[systemMethon][ showNotification]INFO-下拉通知栏成功
+2020-11-23 10:08:24,654[systemMethon][ connectDevices]INFO-sn：d160d04e 手机连接成功
+2020-11-23 10:08:24,795[systemMethon][ showNotification]INFO-下拉通知栏成功
+2020-11-23 10:08:48,575[systemMethon][ connectDevices]INFO-sn：d160d04e 手机连接成功
+2020-11-23 10:08:48,723[systemMethon][ showNotification]INFO-下拉通知栏成功
+2020-11-23 10:08:50,277[systemMethon][ openBluetooth]INFO-点击蓝牙开关
+2020-11-23 10:08:52,495[systemMethon][ hideNotification]INFO-收起通知栏成功
+2020-11-23 10:10:04,092[systemMethon][ connectDevices]INFO-sn：d160d04e 手机连接成功
+2020-11-23 10:10:04,252[systemMethon][ showNotification]INFO-下拉通知栏成功
+2020-11-23 10:10:05,826[systemMethon][ openBluetooth]INFO-点击蓝牙开关
+2020-11-23 10:10:06,941[systemMethon][ openBluetooth]ERROR-蓝牙开启失败
+2020-11-23 10:10:08,026[systemMethon][ hideNotification]INFO-收起通知栏成功
+2020-11-23 10:11:51,047[systemMethon][ connectDevices]INFO-sn：d160d04e 手机连接成功
+2020-11-23 10:11:51,191[systemMethon][ showNotification]INFO-下拉通知栏成功
+2020-11-23 10:11:52,738[systemMethon][ openBluetooth]INFO-点击蓝牙开关
+2020-11-23 10:11:53,835[systemMethon][ openBluetooth]INFO-蓝牙已开启
+2020-11-23 10:11:54,980[systemMethon][ hideNotification]INFO-收起通知栏成功
+2020-11-23 10:26:37,899[systemMethon][ connectDevices]INFO-sn：d160d04e 手机连接成功
+2020-11-23 10:26:44,611[systemMethon][ connectDevices]INFO-sn：d160d04e 手机连接成功
+2020-11-23 10:28:46,434[systemMethon][ connectDevices]INFO-sn：d160d04e 手机连接成功
+2020-11-23 10:28:46,590[systemMethon][ stopStannisDemo]INFO-结束stannisDemo

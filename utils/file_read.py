@@ -3,7 +3,6 @@
 文件读取。YamlReader读取yaml文件，ExcelReader读取excel。
 """
 import yaml,os
-from xlrd import open_workbook
 
 class YamlReader:
     def __init__(self,yamlf):
