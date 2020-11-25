@@ -2,7 +2,7 @@
 import uiautomator2
 from time import sleep
 from  utils.logger import Logger
-from common.devices import Devices
+from common import Devices
 
 logger = Logger(logger='systemMethon').getlog()
 
@@ -35,7 +35,6 @@ class System():
         elif bluetoothStatusb == False:
             self.showNotification()
             sleep(1)
-            print(self.d.getBTswitchPx())
             self.dr.click(*self.d.getBTswitchPx())
             logger.info('点击蓝牙开关')
             sleep(1)
@@ -72,4 +71,4 @@ if __name__ == '__main__':
     system = System()
     system.connectDevices()
     # system.killAllApp()
-    system.stopStannisDemo()
+    system.openBluetooth()

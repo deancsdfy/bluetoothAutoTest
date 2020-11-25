@@ -1,0 +1,494 @@
+[11-25 09:35:47.882] [I] [Tid: 505060647120] [Stannis]>>> this is new log session <<<
+[11-25 09:35:48.013] [I] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getSpeakerDeviceVolume start
+[11-25 09:35:48.013] [I] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getSpeakerDeviceVolume end
+[11-25 09:35:48.013] [I] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getSpeakerDeviceVolume start
+[11-25 09:35:48.013] [I] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getSpeakerDeviceVolume end
+[11-25 09:35:48.014] [D] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getAudioOutputRouting
+[11-25 09:35:48.014] [D] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getOutputType start
+[11-25 09:35:48.014] [D] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getOutputType end
+[11-25 09:35:48.014] [D] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] ouputType: KWStannisOutputTypeAuto
+[11-25 09:35:48.014] [D] [Tid: 500885863760] [Stannis][AudioVadInfoCollector] return active speakers: {}
+[11-25 09:35:49.014] [I] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getSpeakerDeviceVolume start
+[11-25 09:35:49.015] [I] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getSpeakerDeviceVolume end
+[11-25 09:35:49.016] [I] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getSpeakerDeviceVolume start
+[11-25 09:35:49.016] [I] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getSpeakerDeviceVolume end
+[11-25 09:35:49.017] [D] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getAudioOutputRouting
+[11-25 09:35:49.017] [D] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getOutputType start
+[11-25 09:35:49.017] [D] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getOutputType end
+[11-25 09:35:49.018] [D] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] ouputType: KWStannisOutputTypeAuto
+[11-25 09:35:49.019] [D] [Tid: 500885863760] [Stannis][AudioVadInfoCollector] return active speakers: {}
+[11-25 09:35:49.161] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] initWithNotifyObserver start
+[11-25 09:35:49.162] [I] [Tid: 505060647120] [Stannis][AudioEngine] Init SDK Version: r3.11.0.0.0.b5d49a08 [master][2020-11-21 12:15:56 +0800]
+[11-25 09:35:49.175] [I] [Tid: 500811455824] [Stannis][AudioProcess] Init
+[11-25 09:35:49.176] [D] [Tid: 500811455824] [Stannis][AudioMixer] mixer_render cleared
+[11-25 09:35:49.176] [I] [Tid: 500811455824] [Stannis][BgmManager] Reset
+[11-25 09:35:49.176] [I] [Tid: 500811455824] [Stannis][AudioEngine] Init Done
+[11-25 09:35:49.200] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] initWithNotifyObserver end
+[11-25 09:35:49.200] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] setAudioDeviceStatusListener start
+[11-25 09:35:49.200] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] setAudioDeviceStatusListener start
+[11-25 09:35:49.200] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] setAudioDeviceStatusListener end
+[11-25 09:35:49.201] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] setAudioDeviceStatusListener end
+[11-25 09:35:49.201] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] updateServerConfig start
+[11-25 09:35:49.208] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] setDeviceType start: 0
+[11-25 09:35:49.208] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] setDeviceType end
+[11-25 09:35:49.209] [I] [Tid: 505060647120] [Stannis][AudioEngine] UpdateAudioServerConfig dev_aec:0, aec_nlp:21, aec_high_quality:1, group_dev_aec:0, group_aec_nlp:21, group_aec_high_quality:1, force_aec:0, force_aec_nlp:18, round_trip_latency:250, chat_round_trip_latency:250, android_live_stream_mix_bgm:0, stereo_input:0, enable_lite_mode:0, disable_agc:0,dereverb:0, disable_common_ns:0, enable_seperate_render_thread:0, disable_new_aec_est:0
+[11-25 09:35:49.209] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] updateServerConfig end
+[11-25 09:35:49.210] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] startPipelineWithNativePtr start, vad_flow_id = 1234
+[11-25 09:35:49.211] [I] [Tid: 505060647120] [Stannis]SetDeviceAutoMode 1
+[11-25 09:35:49.217] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] isConnectBluetooth false
+[11-25 09:35:49.218] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getPluginType: 10000， isInitialized = false
+[11-25 09:35:49.218] [I] [Tid: 505060647120] [Stannis][AudioEngine] GetAudioConfigIfNeedResetDevice reset[0x1] scene[0x0->0x200] plugin[0x0->0x10000] mode[0->0] aec[0->0], capture_sample_rate[44100->44100] capture_channel_num[2->1] playback_sample_rate[44100->44100] playback_channel_num[2->2] ,disable_common_ns[0->0]
+[11-25 09:35:49.218] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetAudioConfig scene[0x200] plugin[0x10000] mode[0] aec[0], capture_sample_rate[44100] capture_channel_num[1] playback_sample_rate[44100] playback_channel_num[2]
+[11-25 09:35:49.219] [I] [Tid: 500811455824] [Stannis][AudioInfo2] enable_flag = 3, rt_interval = 10000
+[11-25 09:35:49.219] [I] [Tid: 505060647120] [Stannis][AudioEngine] StartLiveStream: audio_id =0, vad_flow_id:1234
+[11-25 09:35:49.219] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetMuteLiveStreamOutBgm:0
+[11-25 09:35:49.219] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetMuteMicrophone:0
+[11-25 09:35:49.219] [I] [Tid: 505060647120] [Stannis][AudioEngine] StopSilenceGenerator
+[11-25 09:35:49.220] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] startAudioDevice start
+[11-25 09:35:49.220] [I] [Tid: 500811455824] [Stannis][AudioEngine] livestream qos start
+[11-25 09:35:49.220] [I] [Tid: 500811455824] [Stannis][AudioProcess] AddTxProcessLiveStream audio_id:0, vad_flow_id:1234 
+[11-25 09:35:49.220] [I] [Tid: 500811455824] [Stannis][FFmpegSwrAudioResampler] FFmpegSwrAudioResampler this:0x7504a9e5d0, output_sample_rate: 16000, output_channel_num: 1
+[11-25 09:35:49.221] [I] [Tid: 500811455824] [Stannis]AutoMixFeatureWorkshop::AutoMixFeatureWorkshop()
+[11-25 09:35:49.221] [I] [Tid: 500811455824] [Stannis][AudioPreProcess] Reset
+[11-25 09:35:49.220] [D] [Tid: 500775828816] [Stannis][SoundEffectManager] sample_rate:0->44100, channel_num:0->2
+[11-25 09:35:49.220] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] initOutputType start 0
+[11-25 09:35:49.221] [I] [Tid: 500811455824] [Stannis][FFmpegSwrAudioResampler] FFmpegSwrAudioResampler this:0x7504a9e6c0, output_sample_rate: 44100, output_channel_num: 1
+[11-25 09:35:49.221] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] initOutputType end 0
+[11-25 09:35:49.221] [I] [Tid: 500811455824] [Stannis][AudioPreProcess] CreateAudioAgc: agc_use_fast_mode_=1
+[11-25 09:35:49.222] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] startAudioDeviceCheckThread start
+[11-25 09:35:49.222] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] startAudioDeviceCheckThread end
+[11-25 09:35:49.222] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] updateAudioDeviceConfig start
+[11-25 09:35:49.223] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getCurrentAudioDeviceConfig start
+[11-25 09:35:49.223] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] isConnectBluetooth false
+[11-25 09:35:49.224] [I] [Tid: 500382547280] [Stannis]StannisAudioManager| [StannisAudioManager] AudioDeviceCheckRunner run..
+[11-25 09:35:49.224] [I] [Tid: 500811455824] [Stannis][FFmpegSwrAudioResampler] FFmpegSwrAudioResampler this:0x7504a9e9c0, output_sample_rate: 44100, output_channel_num: 2
+[11-25 09:35:49.224] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getPluginType: 10000， isInitialized = false
+[11-25 09:35:49.224] [I] [Tid: 500811455824] [Stannis][AudioPreProcess] SetAgcInternal: enable[1], ns_lv[-12], max_gain[12], increment[12], target[32000], howling[0], lite[1]
+[11-25 09:35:49.224] [I] [Tid: 500811455824] [Stannis][AudioPreProcess] Reset done
+[11-25 09:35:49.224] [I] [Tid: 505060647120] [Stannis][AudioEngine] GetAudioConfigIfNeedResetDevice reset[0x0] scene[0x200->0x200] plugin[0x10000->0x10000] mode[0->0] aec[0->0], capture_sample_rate[44100->44100] capture_channel_num[1->1] playback_sample_rate[44100->44100] playback_channel_num[2->2] ,disable_common_ns[0->0]
+[11-25 09:35:49.225] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetAudioConfig scene[0x200] plugin[0x10000] mode[0] aec[0], capture_sample_rate[44100] capture_channel_num[1] playback_sample_rate[44100] playback_channel_num[2]
+[11-25 09:35:49.226] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getCurrentAudioDeviceConfig end
+[11-25 09:35:49.226] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] updateAudioDeviceConfig end:AudioDeviceConfig{deviceType=0, scene=512, needRestart=false, audioMode=0, captureSampleRate=44100, captureChannelNum=1, playbackSampleRate=44100, playbackChannelNum=2, headphoneMonitor=0, roundTripLatency=250, audioStreamEnable=true, audioChatEnable=false}
+[11-25 09:35:49.226] [I] [Tid: 500811455824] [Stannis]SetAgcEnable: mode=0
+[11-25 09:35:49.226] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] setAudioSession start
+[11-25 09:35:49.227] [I] [Tid: 500811455824] [Stannis]AudioSourceCheckWorkshop::AudioSourceCheckWorkshop()
+[11-25 09:35:49.228] [I] [Tid: 500811455824] [Stannis][FFmpegSwrAudioResampler] FFmpegSwrAudioResampler this:0x7504a9ede0, output_sample_rate: 44100, output_channel_num: 2
+[11-25 09:35:49.229] [I] [Tid: 500811455824] [Stannis][FFmpegSwrAudioResampler] FFmpegSwrAudioResampler this:0x7504a9eed0, output_sample_rate: 44100, output_channel_num: 2
+[11-25 09:35:49.229] [I] [Tid: 500811455824] [Stannis][FFmpegSwrAudioResampler] FFmpegSwrAudioResampler this:0x7504a9ef00, output_sample_rate: 44100, output_channel_num: 1
+[11-25 09:35:49.228] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] audioManager current Mode 0 tosetMode 0
+[11-25 09:35:49.229] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] setSpeakerOnWrapper start: true
+[11-25 09:35:49.229] [I] [Tid: 500811455824] [Stannis]ResetDelayBuffer: speaker:21168, ref:0, enable_aec=0
+[11-25 09:35:49.229] [I] [Tid: 500811455824] [Stannis]AudioMixOutsideWorkshop::AudioMixOutsideWorkshop enable_mix_ = 1
+[11-25 09:35:49.230] [I] [Tid: 500811455824] [Stannis]kAudioTxLiveStreamSampleRate = 44100
+[11-25 09:35:49.230] [I] [Tid: 500811455824] [Stannis][FFmpegSwrAudioResampler] FFmpegSwrAudioResampler this:0x7504a9ef90, output_sample_rate: 44100, output_channel_num: 2
+[11-25 09:35:49.230] [I] [Tid: 500811455824] [Stannis]ResetRemoteMixBuffer: delay_ms=250
+[11-25 09:35:49.230] [D] [Tid: 500811455824] [Stannis][AudioMixWorkshop] [stream_out_bgm] SetEnableMixing enable=0, delay_ms_ = 0
+[11-25 09:35:49.231] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetMuteMicrophone: 0
+[11-25 09:35:49.231] [I] [Tid: 500811455824] [Stannis][SilenceGenerateWorkshop] StopSilenceTimer
+[11-25 09:35:49.231] [I] [Tid: 500811455824] [Stannis][AudioInfo2] enable_flag = 3, rt_interval = 10000
+[11-25 09:35:49.231] [D] [Tid: 500811455824] [Stannis][AudioMixWorkshop] [audio_buffer] SetEnableMixing enable=0, delay_ms_ = 0
+[11-25 09:35:49.231] [D] [Tid: 500811455824] [Stannis][AudioMixWorkshop] [stream_out_bgm] SetEnableMixing enable=0, delay_ms_ = 0
+[11-25 09:35:49.232] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] setSpeakerOnWrapper end
+[11-25 09:35:49.232] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] setAudioSession end
+[11-25 09:35:49.232] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] startPlayout start
+[11-25 09:35:49.232] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] init start
+[11-25 09:35:49.232] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] registerReceiver start
+[11-25 09:35:49.233] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] unregisterReceiver start
+[11-25 09:35:49.233] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] unregisterReceiver end
+[11-25 09:35:49.237] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] registerReceiver end
+[11-25 09:35:49.240] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] isConnectBluetooth false
+[11-25 09:35:49.240] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] init: mode = 0, spk on = true, mic mute = false, headset = false, usb = false, bluetooth = false, current_output = 0
+[11-25 09:35:49.240] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] updateAudioDeviceConfig start
+[11-25 09:35:49.240] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getCurrentAudioDeviceConfig start
+[11-25 09:35:49.241] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getPluginType: 10000， isInitialized = true
+[11-25 09:35:49.241] [I] [Tid: 505060647120] [Stannis][AudioEngine] GetAudioConfigIfNeedResetDevice reset[0x0] scene[0x200->0x200] plugin[0x10000->0x10000] mode[0->0] aec[0->0], capture_sample_rate[44100->44100] capture_channel_num[1->1] playback_sample_rate[44100->44100] playback_channel_num[2->2] ,disable_common_ns[0->0]
+[11-25 09:35:49.241] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetAudioConfig scene[0x200] plugin[0x10000] mode[0] aec[0], capture_sample_rate[44100] capture_channel_num[1] playback_sample_rate[44100] playback_channel_num[2]
+[11-25 09:35:49.242] [I] [Tid: 500811455824] [Stannis][AudioInfo2] enable_flag = 3, rt_interval = 10000
+[11-25 09:35:49.242] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getCurrentAudioDeviceConfig end
+[11-25 09:35:49.242] [D] [Tid: 500811455824] [Stannis][AudioMixWorkshop] [audio_buffer] SetEnableMixing enable=0, delay_ms_ = 0
+[11-25 09:35:49.242] [D] [Tid: 500811455824] [Stannis][AudioMixWorkshop] [stream_out_bgm] SetEnableMixing enable=0, delay_ms_ = 0
+[11-25 09:35:49.242] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] updateAudioDeviceConfig end:AudioDeviceConfig{deviceType=0, scene=512, needRestart=false, audioMode=0, captureSampleRate=44100, captureChannelNum=1, playbackSampleRate=44100, playbackChannelNum=2, headphoneMonitor=0, roundTripLatency=250, audioStreamEnable=true, audioChatEnable=false}
+[11-25 09:35:49.242] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] init end
+[11-25 09:35:49.242] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] createDevice: type = 0
+[11-25 09:35:49.244] [D] [Tid: 505060647120] [Stannis]AudioDeviceJavaAudioRecord| ctor@[name=main, id=1, priority=5]
+[11-25 09:35:49.245] [D] [Tid: 505060647120] [Stannis]AudioDeviceAudioTrack| ctor@[name=main, id=1, priority=5]
+[11-25 09:35:49.245] [D] [Tid: 505060647120] [Stannis]AudioDevice| use Java API
+[11-25 09:35:49.246] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] initPlayout start,get current mode 0
+[11-25 09:35:49.246] [D] [Tid: 505060647120] [Stannis]AudioDeviceAudioTrack| initPlayout(sampleRate=44100, channels=2)
+[11-25 09:35:49.248] [D] [Tid: 505060647120] [Stannis]AudioDeviceAudioTrack| AudioTrack.getMinBufferSize: 14176
+[11-25 09:35:49.248] [D] [Tid: 505060647120] [Stannis]AudioDeviceAudioTrack| byteBuffer.capacity: 3528
+[11-25 09:35:49.269] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] initPlayout use 3
+[11-25 09:35:49.270] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] initPlayout end
+[11-25 09:35:49.270] [D] [Tid: 505060647120] [Stannis]AudioDeviceAudioTrack| startPlayout
+[11-25 09:35:49.273] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] startPlayout end
+[11-25 09:35:49.273] [D] [Tid: 500364684624] [Stannis]AudioDeviceAudioTrack| AudioTrackThread@[name=AudioTrackJavaThread, id=2330, priority=5]
+[11-25 09:35:49.274] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] startRecordingByUser start
+[11-25 09:35:49.274] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] startRecording start
+[11-25 09:35:49.274] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] init start
+[11-25 09:35:49.274] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] registerReceiver start
+[11-25 09:35:49.274] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] unregisterReceiver start
+[11-25 09:35:49.275] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] unregisterReceiver end
+[11-25 09:35:49.278] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] registerReceiver end
+[11-25 09:35:49.278] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] updateAudioDeviceConfig start
+[11-25 09:35:49.278] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getCurrentAudioDeviceConfig start
+[11-25 09:35:49.279] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getPluginType: 10000， isInitialized = true
+[11-25 09:35:49.279] [I] [Tid: 505060647120] [Stannis][AudioEngine] GetAudioConfigIfNeedResetDevice reset[0x0] scene[0x200->0x200] plugin[0x10000->0x10000] mode[0->0] aec[0->0], capture_sample_rate[44100->44100] capture_channel_num[1->1] playback_sample_rate[44100->44100] playback_channel_num[2->2] ,disable_common_ns[0->0]
+[11-25 09:35:49.279] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetAudioConfig scene[0x200] plugin[0x10000] mode[0] aec[0], capture_sample_rate[44100] capture_channel_num[1] playback_sample_rate[44100] playback_channel_num[2]
+[11-25 09:35:49.279] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getCurrentAudioDeviceConfig end
+[11-25 09:35:49.280] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] updateAudioDeviceConfig end:AudioDeviceConfig{deviceType=0, scene=512, needRestart=false, audioMode=0, captureSampleRate=44100, captureChannelNum=1, playbackSampleRate=44100, playbackChannelNum=2, headphoneMonitor=0, roundTripLatency=250, audioStreamEnable=true, audioChatEnable=false}
+[11-25 09:35:49.280] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] init end
+[11-25 09:35:49.280] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] initRecording start
+[11-25 09:35:49.280] [I] [Tid: 500811455824] [Stannis][AudioInfo2] enable_flag = 3, rt_interval = 10000
+[11-25 09:35:49.280] [D] [Tid: 505060647120] [Stannis]AudioDeviceJavaAudioRecord| initRecording(sampleRate=44100, channels=1, recordingPreset=0)
+[11-25 09:35:49.280] [D] [Tid: 500811455824] [Stannis][AudioMixWorkshop] [audio_buffer] SetEnableMixing enable=0, delay_ms_ = 0
+[11-25 09:35:49.280] [D] [Tid: 500811455824] [Stannis][AudioMixWorkshop] [stream_out_bgm] SetEnableMixing enable=0, delay_ms_ = 0
+[11-25 09:35:49.283] [D] [Tid: 505060647120] [Stannis]AudioDeviceJavaAudioRecord| AudioRecord.getMinBufferSize: 3584
+[11-25 09:35:49.283] [D] [Tid: 505060647120] [Stannis]AudioDeviceJavaAudioRecord| bufferSizeInBytes: 7168
+[11-25 09:35:49.393] [D] [Tid: 505060647120] [Stannis]AudioDeviceJavaAudioRecord| AudioRecord.getAudioSource: 0
+[11-25 09:35:49.393] [D] [Tid: 505060647120] [Stannis]AudioDeviceJavaAudioRecord| byteBuffer.capacity: 1764
+[11-25 09:35:49.393] [D] [Tid: 505060647120] [Stannis]AudioDeviceJavaAudioRecord| AudioRecord session ID: 1345, audio format: 2, channels: 1, sample rate: 44100
+[11-25 09:35:49.394] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| initrecording use AudioSource0
+[11-25 09:35:49.394] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] initRecording end
+[11-25 09:35:49.394] [D] [Tid: 505060647120] [Stannis]AudioDeviceJavaAudioRecord| startRecording
+[11-25 09:35:49.416] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] checkIfNeedStartBluetoothSco start, mode = 0, connect bt = false
+[11-25 09:35:49.416] [D] [Tid: 500362562896] [Stannis]AudioDeviceJavaAudioRecord| AudioRecordThread@[name=AudioRecordJavaThread, id=2332, priority=5]
+[11-25 09:35:49.418] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] checkIfNeedStartBluetoothSco: false
+[11-25 09:35:49.418] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] startRecording end
+[11-25 09:35:49.418] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] startRecordingByUser end
+[11-25 09:35:49.418] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] resetRoundTripLatencyWithDelay start
+[11-25 09:35:49.418] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetRoundTripLatency 250
+[11-25 09:35:49.418] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] resetRoundTripLatencyWithDelay end
+[11-25 09:35:49.418] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetRoundTripLatency: bgm_enable=0, latency=250, segment_enable=0
+[11-25 09:35:49.418] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] startAudioDevice end
+[11-25 09:35:49.419] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] startPipelineWithNativePtr end, vad_flow_id = 1234
+[11-25 09:35:49.419] [D] [Tid: 500811455824] [Stannis][AudioMixWorkshop] [stream_out_bgm] SetEnableMixing enable=0, delay_ms_ = 0
+[11-25 09:35:49.419] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetEnableNoiseSuppression:1
+[11-25 09:35:49.419] [D] [Tid: 500811455824] [Stannis][AudioMixWorkshop] [audio_segment] SetEnableMixing enable=0, delay_ms_ = 0
+[11-25 09:35:49.419] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] setEnableDeepDereverb: false, model = /sdcard/dereverb_model.tflite
+[11-25 09:35:49.419] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetEnableDeepDereverb:0, /sdcard/dereverb_model.tflite
+[11-25 09:35:49.419] [D] [Tid: 500811455824] [Stannis][AudioMixWorkshop] [audio_buffer] SetEnableMixing enable=0, delay_ms_ = 0
+[11-25 09:35:49.419] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] setEnableDeepNs: false, model = /sdcard/model.tflite
+[11-25 09:35:49.419] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetRxRoundTripLatency: 250
+[11-25 09:35:49.420] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetDeepNsModelPath:0, /sdcard/model.tflite
+[11-25 09:35:49.420] [I] [Tid: 500811455824] [Stannis]ResetRemoteMixBuffer: delay_ms=250
+[11-25 09:35:49.420] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetAgcEnableMode:0
+[11-25 09:35:49.420] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetEnableNoiseSuppression 1
+[11-25 09:35:49.420] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] setReverbLevel start
+[11-25 09:35:49.420] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetAgcEnableMode 0
+[11-25 09:35:49.420] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetReverbLevel:0
+[11-25 09:35:49.420] [I] [Tid: 500811455824] [Stannis]SetAgcEnable: mode=0
+[11-25 09:35:49.420] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetReverbLevel: 0
+[11-25 09:35:49.422] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] setReverbLevel end
+[11-25 09:35:49.422] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetVoiceEffect:0
+[11-25 09:35:49.423] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetVoiceEffect: 0
+[11-25 09:35:49.423] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetEnableHowlingSuppression:0
+[11-25 09:35:49.423] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetBgmPitch 0
+[11-25 09:35:49.423] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetEnableHowlingSuppression: mode= 0
+[11-25 09:35:49.423] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetKaraokePitch: pitch=0
+[11-25 09:35:49.423] [I] [Tid: 500811455824] [Stannis][AudioPreProcess] SetEnableHowlingSuppression: 0
+[11-25 09:35:49.423] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetVoiceVocal:0
+[11-25 09:35:49.423] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetBgmPitch 0
+[11-25 09:35:49.423] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetAecFarendCompressorGain:-15.000000
+[11-25 09:35:49.424] [I] [Tid: 500811455824] [Stannis][BgmManager] SetPitchLevel:0
+[11-25 09:35:49.424] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] setEnableCommonDenoise: true, model = /sdcard/common_denoise.tflite
+[11-25 09:35:49.424] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetVoiceVocal: 0
+[11-25 09:35:49.424] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetEnableCommonDenoise: enable 1, model path = /sdcard/common_denoise.tflite
+[11-25 09:35:49.424] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetAecFarendCompressorGain -15.000000
+[11-25 09:35:49.424] [D] [Tid: 505060647120] [Stannis]DemoSettings| setStannisVolumeConfig
+[11-25 09:35:49.424] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] setHeadphoneMonitorVolume start
+[11-25 09:35:49.424] [W] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] setDeviceMicVolume failed, isEnableHeadphoneMonitor not enable
+[11-25 09:35:49.424] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] setHeadphoneMonitorVolume end
+[11-25 09:35:49.425] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetAudioInputVolume:1.000000
+[11-25 09:35:49.425] [I] [Tid: 505060647120] [Stannis][AudioProcess] SetAudioInputVolume: 1.00
+[11-25 09:35:49.425] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] setHeadphoneMonitorVolume start
+[11-25 09:35:49.425] [W] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] setDeviceMicVolume failed, isEnableHeadphoneMonitor not enable
+[11-25 09:35:49.425] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] setHeadphoneMonitorVolume end
+[11-25 09:35:49.425] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetBgmVolume 1.000000
+[11-25 09:35:49.425] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetRemoteBgmVolume 1.000000
+[11-25 09:35:49.425] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetRemoteMixVolume:1.000000
+[11-25 09:35:49.425] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetAudioRxVolume audio_id:16, volume:1.00
+[11-25 09:35:49.425] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetAudioRxVolume audio_id:17, volume:1.00
+[11-25 09:35:49.426] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetAudioRxVolume audio_id:18, volume:1.00
+[11-25 09:35:49.426] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetAudioRxVolume audio_id:19, volume:1.00
+[11-25 09:35:49.426] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetAudioRxVolume audio_id:20, volume:1.00
+[11-25 09:35:49.426] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetSpeakerOutputVolume:1.000000
+[11-25 09:35:49.426] [I] [Tid: 505060647120] [Stannis][AudioProcess] SetSpeakerOutputVolume: 1.00
+[11-25 09:35:49.426] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetMuteMicrophone:0
+[11-25 09:35:49.426] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetMuteSpeaker:0
+[11-25 09:35:49.428] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetBgmVolume 1.00
+[11-25 09:35:49.428] [I] [Tid: 500811455824] [Stannis][BgmManager] SetVolume:1.000000
+[11-25 09:35:49.428] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetRemoteBgmVolume 1.00
+[11-25 09:35:49.429] [I] [Tid: 500811455824] [Stannis][BgmManager] SetRemoteVolume:1.000000
+[11-25 09:35:49.429] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetRemoteMixVolume: 1.00
+[11-25 09:35:49.429] [I] [Tid: 500811455824] [Stannis]SetRemoteMixVolume: volume=100
+[11-25 09:35:49.429] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetAudioRxVolume id:16, volume:1.00
+[11-25 09:35:49.429] [E] [Tid: 500811455824] [Stannis][AudioProcess] SetAudioRxVolume id:16 not found
+[11-25 09:35:49.429] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetAudioRxVolume id:17, volume:1.00
+[11-25 09:35:49.429] [E] [Tid: 500811455824] [Stannis][AudioProcess] SetAudioRxVolume id:17 not found
+[11-25 09:35:49.429] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetAudioRxVolume id:18, volume:1.00
+[11-25 09:35:49.429] [E] [Tid: 500811455824] [Stannis][AudioProcess] SetAudioRxVolume id:18 not found
+[11-25 09:35:49.430] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetAudioRxVolume id:19, volume:1.00
+[11-25 09:35:49.430] [E] [Tid: 500811455824] [Stannis][AudioProcess] SetAudioRxVolume id:19 not found
+[11-25 09:35:49.430] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetEnableAutoMixProcess enable=1
+[11-25 09:35:49.430] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetAudioRxVolume id:20, volume:1.00
+[11-25 09:35:49.430] [E] [Tid: 500811455824] [Stannis][AudioProcess] SetAudioRxVolume id:20 not found
+[11-25 09:35:49.430] [I] [Tid: 505060647120] [Stannis][AudioEngine] StartBypassStream
+[11-25 09:35:49.430] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetMuteMicrophone: 0
+[11-25 09:35:49.430] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetMuteSpeaker: 0
+[11-25 09:35:49.431] [I] [Tid: 500811455824] [Stannis][BgmManager] SetEnableAutoMixProcess:1
+[11-25 09:35:49.431] [I] [Tid: 500811455824] [Stannis]AutoMixFeatureWorkshop::SetEnableAutoMixProcess enable=1
+[11-25 09:35:49.431] [I] [Tid: 500811455824] [Stannis]AudioBypassWorkshop::Reset max_aec_latency=600, nlp=0
+[11-25 09:35:49.432] [I] [Tid: 500811455824] [Stannis][FFmpegSwrAudioResampler] FFmpegSwrAudioResampler this:0x7504a9f800, output_sample_rate: 16000, output_channel_num: 1
+[11-25 09:35:49.442] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] onReceive_intent: android.media.ACTION_SCO_AUDIO_STATE_UPDATED
+[11-25 09:35:49.443] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] AudioManager.EXTRA_SCO_AUDIO_STATE = SCO_AUDIO_STATE_DISCONNECTED
+[11-25 09:35:49.443] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputType start
+[11-25 09:35:49.443] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputDevice start
+[11-25 09:35:49.444] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputDevice end
+[11-25 09:35:49.444] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputType end
+[11-25 09:35:49.445] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] onReceive_intent: android.intent.action.HEADSET_PLUG
+[11-25 09:35:49.445] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] ACTION_HEADSET_PLUG state = 0, microphone = 1
+[11-25 09:35:49.446] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputType start
+[11-25 09:35:49.446] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputDevice start
+[11-25 09:35:49.446] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputDevice end
+[11-25 09:35:49.446] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputType end
+[11-25 09:35:49.446] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] ACTION_HEADSET_PLUG.state = 0
+[11-25 09:35:49.447] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputType start
+[11-25 09:35:49.447] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputDevice start
+[11-25 09:35:49.447] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputDevice end
+[11-25 09:35:49.447] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputType end
+[11-25 09:35:49.447] [I] [Tid: 500361477456] [Stannis]StannisAudioManager| [StannisAudioManager] notifyAudioDeviceStatus: status = 4
+[11-25 09:35:49.448] [D] [Tid: 500361477456] [Stannis]StannisAudioManager| [StannisAudioManager] asyncResetDevice 2333,isHeadsetConnected = 0, userSetOutputType = 0
+[11-25 09:35:49.448] [I] [Tid: 500361477456] [Stannis]StannisAudioManager| [StannisAudioManager] resetDevice start, reason = isHeadsetConnected = 0, userSetOutputType = 0, force = false
+[11-25 09:35:49.448] [I] [Tid: 500361477456] [Stannis]StannisAudioManager| [StannisAudioManager] resetDevice start, reason: isHeadsetConnected = 0, userSetOutputType = 0, userSetOutputType = 0, currentOutType = 0
+[11-25 09:35:49.448] [D] [Tid: 500361477456] [Stannis]StannisAudioManager| [StannisAudioManager] getCurrentAudioDeviceConfig start
+[11-25 09:35:49.449] [D] [Tid: 500361477456] [Stannis]StannisAudioManager| [StannisAudioManager] getPluginType: 10000， isInitialized = true
+[11-25 09:35:49.449] [I] [Tid: 500361477456] [Stannis][AudioEngine] GetAudioConfigIfNeedResetDevice reset[0x0] scene[0x200->0x200] plugin[0x10000->0x10000] mode[0->0] aec[0->0], capture_sample_rate[44100->44100] capture_channel_num[1->1] playback_sample_rate[44100->44100] playback_channel_num[2->2] ,disable_common_ns[0->0]
+[11-25 09:35:49.449] [I] [Tid: 500361477456] [Stannis][AudioEngine] SetAudioConfig scene[0x200] plugin[0x10000] mode[0] aec[0], capture_sample_rate[44100] capture_channel_num[1] playback_sample_rate[44100] playback_channel_num[2]
+[11-25 09:35:49.449] [E] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] HWAudioKit onResult = 1000
+[11-25 09:35:49.449] [D] [Tid: 500361477456] [Stannis]StannisAudioManager| [StannisAudioManager] getCurrentAudioDeviceConfig end
+[11-25 09:35:49.449] [I] [Tid: 500811455824] [Stannis][AudioInfo2] enable_flag = 3, rt_interval = 10000
+[11-25 09:35:49.449] [I] [Tid: 500361477456] [Stannis]StannisAudioManager| [StannisAudioManager] resetDevice needRestart  = false, userReset = false
+[11-25 09:35:49.449] [D] [Tid: 500811455824] [Stannis][AudioMixWorkshop] [audio_buffer] SetEnableMixing enable=0, delay_ms_ = 0
+[11-25 09:35:49.450] [D] [Tid: 500361477456] [Stannis]StannisAudioManager| [StannisAudioManager] resetDevice isStartSco = false, isStopSco = false, userReset = false
+[11-25 09:35:49.450] [D] [Tid: 500361477456] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputType start
+[11-25 09:35:49.450] [I] [Tid: 500361477456] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputDevice start
+[11-25 09:35:49.450] [I] [Tid: 500361477456] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputDevice end
+[11-25 09:35:49.450] [D] [Tid: 500361477456] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputType end
+[11-25 09:35:49.450] [I] [Tid: 500361477456] [Stannis][AudioEngine] ResetAudioProcess
+[11-25 09:35:49.451] [I] [Tid: 500361477456] [Stannis]StannisAudioManager| [StannisAudioManager] resetDevice end, currentOutputType = 0, userSetOutputType = 0
+[11-25 09:35:49.451] [I] [Tid: 500361477456] [Stannis]StannisAudioManager| [StannisAudioManager] resetDevice end
+[11-25 09:35:49.451] [I] [Tid: 500361477456] [Stannis]StannisAudioManager| [StannisAudioManager] resetRoundTripLatencyWithDelay start
+[11-25 09:35:49.451] [I] [Tid: 500361477456] [Stannis]StannisAudioManager| [StannisAudioManager] resetRoundTripLatencyWithDelay end
+[11-25 09:35:49.451] [D] [Tid: 500361477456] [Stannis]StannisAudioManager| [StannisAudioManager] asyncResetDevice end, force = false, needforceReportRoute = false, isHeadsetConnected = 0, userSetOutputType = 0
+[11-25 09:35:49.450] [D] [Tid: 500811455824] [Stannis][AudioMixWorkshop] [stream_out_bgm] SetEnableMixing enable=0, delay_ms_ = 0
+[11-25 09:35:49.452] [E] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] HWAudioKit onResult = 0
+[11-25 09:35:49.452] [I] [Tid: 500811455824] [Stannis][AudioProcess] ResetAudioProcess
+[11-25 09:35:49.518] [I] [Tid: 500793642320] [Stannis][FFmpegSwrAudioResampler] HandleAudio this:0x7504a9e5d0, audio input config changed: sample_rate: 0->44100, channel_num: 0->1
+[11-25 09:35:49.518] [I] [Tid: 500793642320] [Stannis][FFmpegSwrAudioResampler] ResetSwrContext this:0x7504a9e5d0
+[11-25 09:35:49.534] [I] [Tid: 500793642320] [Stannis]AudioBypassWorkshop::Reset max_aec_latency=600, nlp=0
+[11-25 09:35:49.535] [I] [Tid: 500793642320] [Stannis][FFmpegSwrAudioResampler] FFmpegSwrAudioResampler this:0x74a5374870, output_sample_rate: 16000, output_channel_num: 1
+[11-25 09:35:49.535] [I] [Tid: 500793642320] [Stannis][FFmpegSwrAudioResampler] ~FFmpegSwrAudioResampler this:0x7504a9f800
+[11-25 09:35:49.537] [I] [Tid: 500793642320] [Stannis][AudioPreProcess] Reset
+[11-25 09:35:49.538] [I] [Tid: 500793642320] [Stannis][FFmpegSwrAudioResampler] FFmpegSwrAudioResampler this:0x7504a9e690, output_sample_rate: 44100, output_channel_num: 1
+[11-25 09:35:49.538] [I] [Tid: 500793642320] [Stannis][FFmpegSwrAudioResampler] ~FFmpegSwrAudioResampler this:0x7504a9e6c0
+[11-25 09:35:49.538] [I] [Tid: 500793642320] [Stannis][AudioPreProcess] CreateAudioAgc: agc_use_fast_mode_=1
+[11-25 09:35:49.539] [I] [Tid: 500793642320] [Stannis][FFmpegSwrAudioResampler] FFmpegSwrAudioResampler this:0x7504a9e990, output_sample_rate: 44100, output_channel_num: 2
+[11-25 09:35:49.540] [I] [Tid: 500793642320] [Stannis][FFmpegSwrAudioResampler] ~FFmpegSwrAudioResampler this:0x7504a9e9c0
+[11-25 09:35:49.540] [I] [Tid: 500793642320] [Stannis][AudioPreProcess] SetAgcInternal: enable[1], ns_lv[-12], max_gain[12], increment[12], target[32000], howling[0], lite[1]
+[11-25 09:35:49.540] [I] [Tid: 500793642320] [Stannis][AudioPreProcess] Reset done
+[11-25 09:35:49.645] [I] [Tid: 500364684624] [Stannis][FFmpegSwrAudioResampler] HandleAudio this:0x74a5374870, audio input config changed: sample_rate: 0->44100, channel_num: 0->2
+[11-25 09:35:49.646] [I] [Tid: 500364684624] [Stannis][FFmpegSwrAudioResampler] ResetSwrContext this:0x74a5374870
+[11-25 09:35:50.015] [I] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getSpeakerDeviceVolume start
+[11-25 09:35:50.016] [I] [Tid: 500885863760] [Stannis]StannisAudioManager| [StannisAudioManager] getSpeakerDeviceVolume start
+[11-25 09:35:50.018] [D] [Tid: 500885863760] [Stannis]StannisAudioManager| [StannisAudioManager] getPluginType: 10000， isInitialized = true
+[11-25 09:35:50.049] [I] [Tid: 500885863760] [Stannis]StannisAudioManager| [StannisAudioManager] getSpeakerDeviceVolume end, cur_v = 11, max_v=15, ret=73
+[11-25 09:35:50.050] [I] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getSpeakerDeviceVolume end
+[11-25 09:35:50.053] [I] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getSpeakerDeviceVolume start
+[11-25 09:35:50.053] [I] [Tid: 500885863760] [Stannis]StannisAudioManager| [StannisAudioManager] getSpeakerDeviceVolume start
+[11-25 09:35:50.054] [D] [Tid: 500885863760] [Stannis]StannisAudioManager| [StannisAudioManager] getPluginType: 10000， isInitialized = true
+[11-25 09:35:50.056] [I] [Tid: 500885863760] [Stannis]StannisAudioManager| [StannisAudioManager] getSpeakerDeviceVolume end, cur_v = 11, max_v=15, ret=73
+[11-25 09:35:50.057] [I] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getSpeakerDeviceVolume end
+[11-25 09:35:50.057] [I] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getSpeakerDeviceVolume start
+[11-25 09:35:50.058] [I] [Tid: 500885863760] [Stannis]StannisAudioManager| [StannisAudioManager] getSpeakerDeviceVolume start
+[11-25 09:35:50.059] [D] [Tid: 500885863760] [Stannis]StannisAudioManager| [StannisAudioManager] getPluginType: 10000， isInitialized = true
+[11-25 09:35:50.061] [I] [Tid: 500885863760] [Stannis]StannisAudioManager| [StannisAudioManager] getSpeakerDeviceVolume end, cur_v = 11, max_v=15, ret=73
+[11-25 09:35:50.061] [I] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getSpeakerDeviceVolume end
+[11-25 09:35:50.061] [D] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getAudioOutputRouting
+[11-25 09:35:50.061] [D] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getOutputType start
+[11-25 09:35:50.062] [D] [Tid: 500885863760] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputType start
+[11-25 09:35:50.062] [I] [Tid: 500885863760] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputDevice start
+[11-25 09:35:50.062] [I] [Tid: 500885863760] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputDevice end
+[11-25 09:35:50.062] [D] [Tid: 500885863760] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputType end
+[11-25 09:35:50.063] [D] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getOutputType end
+[11-25 09:35:50.224] [D] [Tid: 500382547280] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputType start
+[11-25 09:35:50.225] [I] [Tid: 500382547280] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputDevice start
+[11-25 09:35:50.226] [I] [Tid: 500382547280] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputDevice end
+[11-25 09:35:50.226] [D] [Tid: 500382547280] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputType end
+[11-25 09:35:50.226] [D] [Tid: 500382547280] [Stannis]StannisAudioManager| [StannisAudioManager] AudioDeviceCheckRunner currentOutputType = 1, outputtype =0, currentOutputType = 0, userSetOutputType = 0forcereport = false
+[11-25 09:35:50.452] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetRoundTripLatency 250
+[11-25 09:35:50.453] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetRoundTripLatency: bgm_enable=0, latency=250, segment_enable=0
+[11-25 09:35:50.454] [D] [Tid: 500811455824] [Stannis][AudioMixWorkshop] [stream_out_bgm] SetEnableMixing enable=0, delay_ms_ = 0
+[11-25 09:35:50.454] [D] [Tid: 500811455824] [Stannis][AudioMixWorkshop] [audio_segment] SetEnableMixing enable=0, delay_ms_ = 0
+[11-25 09:35:50.455] [D] [Tid: 500811455824] [Stannis][AudioMixWorkshop] [audio_buffer] SetEnableMixing enable=0, delay_ms_ = 0
+[11-25 09:35:50.455] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetRxRoundTripLatency: 250
+[11-25 09:35:50.456] [I] [Tid: 500811455824] [Stannis]ResetRemoteMixBuffer: delay_ms=250
+[11-25 09:35:50.925] [I] [Tid: 505060647120] [Stannis][AudioEngine] StartKaraokeScore
+[11-25 09:35:50.926] [I] [Tid: 500811455824] [Stannis]AudioBypassWorkshop::Reset max_aec_latency=600, nlp=0
+[11-25 09:35:50.927] [I] [Tid: 500811455824] [Stannis][FFmpegSwrAudioResampler] FFmpegSwrAudioResampler this:0x7504a9f4a0, output_sample_rate: 16000, output_channel_num: 1
+[11-25 09:35:50.929] [I] [Tid: 505060647120] [Stannis][AudioEngine] StartBgm url_list_size:1 loop:1 progress_interval_ms:80
+[11-25 09:35:50.929] [I] [Tid: 505060647120] [Stannis][AudioEngine] SetBgmAutoSeekEnable 0
+[11-25 09:35:50.933] [I] [Tid: 500811455824] [Stannis]KaraokeScoreWorkshop: has midi file
+[11-25 09:35:50.934] [I] [Tid: 500811455824] [Stannis]KaraokeScoreWorkshop: midi_offset=0, delay=250, lyrics_offset=0
+[11-25 09:35:50.934] [I] [Tid: 500811455824] [Stannis][AudioProcess] StartBgm loop:1 interval:80 urls: [/sdcard/stannis/zdqc_acc.m4a];
+[11-25 09:35:50.935] [D] [Tid: 500811455824] [Stannis][AudioMixer] mixer_render register source 1
+[11-25 09:35:50.935] [I] [Tid: 500811455824] [Stannis][AudioProcess] livestream RegisterBgmManager 0, enable=0, round_trip_latency=250
+[11-25 09:35:50.935] [D] [Tid: 500811455824] [Stannis][AudioMixWorkshop] [stream_out_bgm] SetEnableMixing enable=0, delay_ms_ = 0
+[11-25 09:35:50.935] [I] [Tid: 500811455824] [Stannis][BgmManager] Start url_list size:1 loop:1 interval:80
+[11-25 09:35:50.935] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetBgmAutoSeekEnable 0
+[11-25 09:35:50.936] [I] [Tid: 500811455824] [Stannis][BgmManager] SetEnableAutoSeek:0
+[11-25 09:35:50.936] [I] [Tid: 500775828816] [Stannis][BgmManager] Start url[0]:/sdcard/stannis/zdqc_acc.m4a
+[11-25 09:35:50.938] [I] [Tid: 500775828816] [Stannis][BgmManager] SetPitchLevel:0
+[11-25 09:35:50.947] [I] [Tid: 500793642320] [Stannis]AudioBypassWorkshop::Reset max_aec_latency=600, nlp=0
+[11-25 09:35:50.949] [I] [Tid: 500793642320] [Stannis][FFmpegSwrAudioResampler] FFmpegSwrAudioResampler this:0x74a5375980, output_sample_rate: 16000, output_channel_num: 1
+[11-25 09:35:50.949] [D] [Tid: 502530698576] [Stannis][FFmpegBgmDecoder] Init resample stream_id:0, channel_layout:3, sample_rate:44100, sample_fmt:1
+[11-25 09:35:50.950] [I] [Tid: 500793642320] [Stannis][FFmpegSwrAudioResampler] ~FFmpegSwrAudioResampler this:0x7504a9f4a0
+[11-25 09:35:50.957] [D] [Tid: 502530698576] [Stannis][FFmpegBgmDecoder] current_pos_ms_ start = 24626
+[11-25 09:35:51.005] [I] [Tid: 500364684624] [Stannis][AudioEngine] OnBgmStartProcess
+[11-25 09:35:51.007] [I] [Tid: 500364684624] [Stannis][AudioEngine] EnableKaraokeScoreProcess
+[11-25 09:35:51.007] [I] [Tid: 500811455824] [Stannis][AudioProcess] OnBgmStartProcess
+[11-25 09:35:51.008] [I] [Tid: 500811455824] [Stannis][AudioPreProcess] SetBgmIsPlaying: 1
+[11-25 09:35:51.009] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetRoundTripLatency: bgm_enable=0, latency=250, segment_enable=0
+[11-25 09:35:51.009] [D] [Tid: 500811455824] [Stannis][AudioMixWorkshop] [stream_out_bgm] SetEnableMixing enable=0, delay_ms_ = 0
+[11-25 09:35:51.009] [D] [Tid: 500811455824] [Stannis][AudioMixWorkshop] [audio_segment] SetEnableMixing enable=0, delay_ms_ = 0
+[11-25 09:35:51.009] [D] [Tid: 500811455824] [Stannis][AudioMixWorkshop] [audio_buffer] SetEnableMixing enable=0, delay_ms_ = 0
+[11-25 09:35:51.009] [I] [Tid: 500811455824] [Stannis]KaraokeScoreWorkshop SetRoundTripDelay:250
+[11-25 09:35:51.009] [I] [Tid: 500811455824] [Stannis]AudioPreProcess::EnableLightAecIfNeeded: enable=1
+[11-25 09:35:51.009] [I] [Tid: 500811455824] [Stannis]KaraokeScoreWorkshop::EnableProcess enable=1
+[11-25 09:35:51.046] [I] [Tid: 500364684624] [Stannis][FFmpegSwrAudioResampler] HandleAudio this:0x74a5375980, audio input config changed: sample_rate: 0->44100, channel_num: 0->2
+[11-25 09:35:51.047] [I] [Tid: 500364684624] [Stannis][FFmpegSwrAudioResampler] ResetSwrContext this:0x74a5375980
+[11-25 09:35:51.228] [D] [Tid: 500382547280] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputType start
+[11-25 09:35:51.228] [I] [Tid: 500382547280] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputDevice start
+[11-25 09:35:51.229] [I] [Tid: 500382547280] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputDevice end
+[11-25 09:35:51.229] [D] [Tid: 500382547280] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputType end
+[11-25 09:35:51.229] [D] [Tid: 500382547280] [Stannis]StannisAudioManager| [StannisAudioManager] AudioDeviceCheckRunner currentOutputType = 1, outputtype =1, currentOutputType = 0, userSetOutputType = 0forcereport = false
+[11-25 09:35:51.742] [I] [Tid: 505060647120] [Stannis][AudioEngine] StopBgm
+[11-25 09:35:51.742] [I] [Tid: 505060647120] [Stannis][AudioEngine] StopKaraokeScore
+[11-25 09:35:51.744] [I] [Tid: 500811455824] [Stannis][AudioProcess] StopBgm
+[11-25 09:35:51.744] [I] [Tid: 500811455824] [Stannis][FFmpegSwrAudioResampler] ~FFmpegSwrAudioResampler this:0x74a5375980
+[11-25 09:35:51.748] [I] [Tid: 500811455824] [Stannis]KaraokeScoreWorkshop::~KaraokeScoreWorkshop()
+[11-25 09:35:51.749] [I] [Tid: 500811455824] [Stannis][BgmManager] Stop
+[11-25 09:35:51.749] [I] [Tid: 500811455824] [Stannis][AudioPreProcess] SetBgmIsPlaying: 0
+[11-25 09:35:51.750] [I] [Tid: 500811455824] [Stannis]AudioPreProcess::EnableLightAecIfNeeded: enable=0
+[11-25 09:35:51.750] [D] [Tid: 500811455824] [Stannis][AudioMixWorkshop] [stream_out_bgm] SetEnableMixing enable=0, delay_ms_ = 0
+[11-25 09:35:51.750] [D] [Tid: 500811455824] [Stannis][AudioMixer] mixer_render unregister source 1
+[11-25 09:35:51.751] [D] [Tid: 502530698576] [Stannis][FFmpegBgmDecoder] current_pos_ms_ start = 1742902
+[11-25 09:35:51.751] [D] [Tid: 502530698576] [Stannis][FFmpegBgmDecoder] Quit decoder proc
+[11-25 09:35:52.004] [I] [Tid: 505060647120] [Stannis][BgmManager] GetAutoMixFeature:0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+[11-25 09:35:52.005] [I] [Tid: 505060647120] [Stannis]AutoMixFeatureWorkshop GetAutoMixFeature:0,-3.5,-3.5,-3.5,-2.98247,0,2.55546,-3.5,-3.5,-3.5,-3.5,-3.5,-3.5,-3.5,-3.5,-3.5,-3.5,0,0,0
+[11-25 09:35:52.013] [I] [Tid: 505060647120] [Stannis][AudioEngine] StopBgm
+[11-25 09:35:52.014] [I] [Tid: 500811455824] [Stannis][AudioProcess] StopBgm
+[11-25 09:35:52.014] [I] [Tid: 505060647120] [Stannis][AudioEngine] StopPlayAudioSegment
+[11-25 09:35:52.014] [I] [Tid: 500811455824] [Stannis][BgmManager] Stop
+[11-25 09:35:52.015] [I] [Tid: 505060647120] [Stannis][AudioEngine] StopMultipleStreamMix
+[11-25 09:35:52.015] [I] [Tid: 500811455824] [Stannis][AudioPreProcess] SetBgmIsPlaying: 0
+[11-25 09:35:52.015] [I] [Tid: 505060647120] [Stannis][AudioEngine] StopAllStream
+[11-25 09:35:52.015] [I] [Tid: 500811455824] [Stannis]AudioPreProcess::EnableLightAecIfNeeded: enable=0
+[11-25 09:35:52.015] [D] [Tid: 500811455824] [Stannis][AudioMixWorkshop] [stream_out_bgm] SetEnableMixing enable=0, delay_ms_ = 0
+[11-25 09:35:52.016] [D] [Tid: 500811455824] [Stannis][AudioMixer] mixer_render unregister source 1
+[11-25 09:35:52.016] [I] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getSpeakerDeviceVolume start
+[11-25 09:35:52.016] [I] [Tid: 500811455824] [Stannis][AudioSegmentPlayer] StopPlay
+[11-25 09:35:52.016] [D] [Tid: 500775828816] [Stannis][SoundEffectManager] stop all
+[11-25 09:35:52.016] [I] [Tid: 500885863760] [Stannis]StannisAudioManager| [StannisAudioManager] getSpeakerDeviceVolume start
+[11-25 09:35:52.016] [D] [Tid: 500811455824] [Stannis][AudioMixWorkshop] [audio_segment] SetEnableMixing enable=0, delay_ms_ = 0
+[11-25 09:35:52.016] [I] [Tid: 500811455824] [Stannis][AudioProcess] RemoveAllTxProcessLiveChat
+[11-25 09:35:52.017] [I] [Tid: 500811455824] [Stannis][AudioProcess] RemoveAllRxProcessLiveChat
+[11-25 09:35:52.017] [I] [Tid: 500811455824] [Stannis][AudioProcess] RemoveAllRxProcessLiveChat: UnRegisterSource
+[11-25 09:35:52.017] [I] [Tid: 500811455824] [Stannis][AudioProcess] SetMuteSpeaker: 0
+[11-25 09:35:52.017] [I] [Tid: 500811455824] [Stannis][AudioProcess] DestroyAllTxProcessLiveStream
+[11-25 09:35:52.017] [I] [Tid: 500811455824] [Stannis][FFmpegSwrAudioResampler] ~FFmpegSwrAudioResampler this:0x7504a9ef90
+[11-25 09:35:52.017] [D] [Tid: 500885863760] [Stannis]StannisAudioManager| [StannisAudioManager] getPluginType: 10000， isInitialized = true
+[11-25 09:35:52.017] [I] [Tid: 500811455824] [Stannis][FFmpegSwrAudioResampler] ~FFmpegSwrAudioResampler this:0x7504a9eed0
+[11-25 09:35:52.018] [I] [Tid: 500811455824] [Stannis][FFmpegSwrAudioResampler] ~FFmpegSwrAudioResampler this:0x7504a9ef00
+[11-25 09:35:52.018] [I] [Tid: 500811455824] [Stannis][FFmpegSwrAudioResampler] ~FFmpegSwrAudioResampler this:0x7504a9ede0
+[11-25 09:35:52.018] [I] [Tid: 500811455824] [Stannis][FFmpegSwrAudioResampler] ~FFmpegSwrAudioResampler this:0x7504a9e5d0
+[11-25 09:35:52.018] [I] [Tid: 500811455824] [Stannis]AudioSourceCheckWorkshop::~AudioSourceCheckWorkshop()
+[11-25 09:35:52.019] [I] [Tid: 500811455824] [Stannis][FFmpegSwrAudioResampler] ~FFmpegSwrAudioResampler this:0x74a5374870
+[11-25 09:35:52.019] [I] [Tid: 500885863760] [Stannis]StannisAudioManager| [StannisAudioManager] getSpeakerDeviceVolume end, cur_v = 11, max_v=15, ret=73
+[11-25 09:35:52.020] [I] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getSpeakerDeviceVolume end
+[11-25 09:35:52.020] [I] [Tid: 500811455824] [Stannis][SilenceGenerateWorkshop] StopSilenceTimer
+[11-25 09:35:52.020] [I] [Tid: 500811455824] [Stannis]AutoMixFeatureWorkshop::~AutoMixFeatureWorkshop()
+[11-25 09:35:52.020] [I] [Tid: 500811455824] [Stannis][FFmpegSwrAudioResampler] ~FFmpegSwrAudioResampler this:0x7504a9e990
+[11-25 09:35:52.020] [I] [Tid: 500811455824] [Stannis][FFmpegSwrAudioResampler] ~FFmpegSwrAudioResampler this:0x7504a9e690
+[11-25 09:35:52.021] [I] [Tid: 500811455824] [Stannis][AudioEngine] livestream qos stop
+[11-25 09:35:52.021] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] disableHeadphoneMonitor start
+[11-25 09:35:52.022] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputType start
+[11-25 09:35:52.022] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputDevice start
+[11-25 09:35:52.022] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputDevice end
+[11-25 09:35:52.022] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputType end
+[11-25 09:35:52.023] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] disableHeadphoneMonitor end
+[11-25 09:35:52.023] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] stopAudioDevice start
+[11-25 09:35:52.023] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] stopAudioDeviceCheckThread start
+[11-25 09:35:52.023] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] stopAudioDeviceCheckThread audioDeviceCheckThread.join()
+[11-25 09:35:52.024] [I] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getSpeakerDeviceVolume start
+[11-25 09:35:52.230] [D] [Tid: 500382547280] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputType start
+[11-25 09:35:52.230] [I] [Tid: 500382547280] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputDevice start
+[11-25 09:35:52.231] [I] [Tid: 500382547280] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputDevice end
+[11-25 09:35:52.231] [D] [Tid: 500382547280] [Stannis]StannisAudioManager| [StannisAudioManager] getOutputType end
+[11-25 09:35:52.232] [D] [Tid: 500382547280] [Stannis]StannisAudioManager| [StannisAudioManager] AudioDeviceCheckRunner currentOutputType = 1, outputtype =1, currentOutputType = 0, userSetOutputType = 0forcereport = false
+[11-25 09:35:52.232] [I] [Tid: 500382547280] [Stannis]StannisAudioManager| [StannisAudioManager] AudioDeviceCheckRunner shutdown
+[11-25 09:35:52.233] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] stopAudioDeviceCheckThread audioDeviceCheckThread.join() end
+[11-25 09:35:52.233] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] stopAudioDeviceCheckThread end
+[11-25 09:35:52.233] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] stopRecordingByUser start
+[11-25 09:35:52.234] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] stopRecording start
+[11-25 09:35:52.234] [D] [Tid: 505060647120] [Stannis]AudioDeviceJavaAudioRecord| stopRecording
+[11-25 09:35:52.351] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] uninit start
+[11-25 09:35:52.352] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] uninit end
+[11-25 09:35:52.353] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] stopRecording end
+[11-25 09:35:52.353] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] stopRecordingByUser end
+[11-25 09:35:52.354] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] stopPlayout start
+[11-25 09:35:52.354] [D] [Tid: 505060647120] [Stannis]AudioDeviceAudioTrack| stopPlayout
+[11-25 09:35:52.353] [I] [Tid: 500361477456] [Stannis]StannisAudioManager| [StannisAudioManager] notifyAudioDeviceStatus: status = 1
+[11-25 09:35:52.395] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] uninit start
+[11-25 09:35:52.441] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] setSpeakerOnWrapper start: true
+[11-25 09:35:52.445] [D] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] setSpeakerOnWrapper end
+[11-25 09:35:52.456] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] unregisterReceiver start
+[11-25 09:35:52.459] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] unregisterReceiver end
+[11-25 09:35:52.460] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] uninit end
+[11-25 09:35:52.460] [I] [Tid: 505060647120] [Stannis]StannisAudioManager| [StannisAudioManager] stopPlayout end
+[11-25 09:35:52.461] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] stopAudioDevice end
+[11-25 09:35:52.461] [I] [Tid: 505060647120] [Stannis][AudioEngine] StopAudioRenderThread
+[11-25 09:35:52.461] [I] [Tid: 500811455824] [Stannis][AudioProcess] StopAudioRenderThread
+[11-25 09:35:52.466] [I] [Tid: 505060647120] [Stannis][AudioEngine] StopBypassStream
+[11-25 09:35:52.466] [I] [Tid: 500885863760] [Stannis]StannisAudioManager| [StannisAudioManager] getSpeakerDeviceVolume start
+[11-25 09:35:52.468] [I] [Tid: 500361477456] [Stannis]StannisAudioManager| [StannisAudioManager] notifyAudioDeviceStatus: status = 2
+[11-25 09:35:52.468] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] uninit start
+[11-25 09:35:52.469] [I] [Tid: 500361477456] [Stannis]StannisAudioManager| [StannisAudioManager] setScoOff start
+[11-25 09:35:52.469] [I] [Tid: 505060647120] [Stannis][AudioEngine] Uninit
+[11-25 09:35:52.470] [I] [Tid: 500811455824] [Stannis][AudioProcess] Uninit
+[11-25 09:35:52.470] [I] [Tid: 500811455824] [Stannis][AudioProcess] DestroyAllTxProcessLiveStream
+[11-25 09:35:52.470] [I] [Tid: 500811455824] [Stannis][AudioProcess] RemoveAllTxProcessLiveChat
+[11-25 09:35:52.470] [I] [Tid: 500811455824] [Stannis][AudioProcess] RemoveAllRxProcessLiveChat
+[11-25 09:35:52.470] [I] [Tid: 500811455824] [Stannis][AudioProcess] RemoveAllRxProcessLiveChat: UnRegisterSource
+[11-25 09:35:52.470] [D] [Tid: 500811455824] [Stannis][AudioMixer] mixer_render cleared
+[11-25 09:35:52.470] [D] [Tid: 500811455824] [Stannis][AudioMixer] AudioBufferCacheSet cleared
+[11-25 09:35:52.471] [I] [Tid: 500829269328] [Stannis][AudioQosInfo] All stat reported.
+[11-25 09:35:52.472] [I] [Tid: 500829269328] [Stannis][AudioQosInfo] All stat reported.
+[11-25 09:35:52.472] [I] [Tid: 500811455824] [Stannis][AudioEngine] Uninit Done
+[11-25 09:35:52.473] [I] [Tid: 500361477456] [Stannis]StannisAudioManager| [StannisAudioManager] setScoOff end
+[11-25 09:35:52.495] [D] [Tid: 500885863760] [Stannis]StannisAudioManager| [StannisAudioManager] isConnectBluetooth false
+[11-25 09:35:52.498] [D] [Tid: 500885863760] [Stannis]StannisAudioManager| [StannisAudioManager] getPluginType: 10000， isInitialized = false
+[11-25 09:35:52.511] [I] [Tid: 500885863760] [Stannis]StannisAudioManager| [StannisAudioManager] getSpeakerDeviceVolume end, cur_v = 11, max_v=15, ret=73
+[11-25 09:35:52.511] [I] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getSpeakerDeviceVolume end
+[11-25 09:35:52.512] [I] [Tid: 505060647120] [Stannis]Stannis| [KWStannis] uninit end
+[11-25 09:35:52.512] [D] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getAudioOutputRouting
+[11-25 09:35:52.512] [D] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getOutputType start
+[11-25 09:35:52.512] [D] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getOutputType end
+[11-25 09:35:52.512] [D] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] ouputType: KWStannisOutputTypeAuto
+[11-25 09:35:53.016] [I] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getSpeakerDeviceVolume start
+[11-25 09:35:53.016] [I] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getSpeakerDeviceVolume end
+[11-25 09:35:53.017] [I] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getSpeakerDeviceVolume start
+[11-25 09:35:53.017] [I] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getSpeakerDeviceVolume end
+[11-25 09:35:53.017] [D] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getAudioOutputRouting
+[11-25 09:35:53.017] [D] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getOutputType start
+[11-25 09:35:53.017] [D] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] getOutputType end
+[11-25 09:35:53.017] [D] [Tid: 500885863760] [Stannis]Stannis| [KWStannis] ouputType: KWStannisOutputTypeAuto

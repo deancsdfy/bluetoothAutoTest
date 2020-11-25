@@ -1,12 +1,14 @@
-import subprocess,platform
+import subprocess,platform,os,re
 from utils.config import Config
 from  utils.logger import Logger
 
-logger = Logger(logger='devices').getlog()
+logger = Logger(logger='common').getlog()
 
 class Devices():
     def __init__(self):
         self.c = Config()
+        self.stannisDemoLogPath = self.c.get('stannisDemoInfo').get('logpath')
+
     # 封装adb
     def shell(self,args):
         sys = platform.system()
@@ -58,14 +60,54 @@ class Devices():
         # str转typle
         px = eval(repr(px).replace('\'',''))
         return px
+
     def installStannisDemo(self):
         pack_path = self.c.pack_path
-        os.system('adb install {}'.format(pack_path))
-        print('1')
+        subprocess.Popen('adb install "{}"'.format(pack_path), shell=True, stdout=subprocess.PIPE,
+                         stderr=subprocess.PIPE)
+        logger.info('安装stannisdemo--------')
+
+    def unistallStannisDemo(self):
+        subprocess.Popen('adb uninstall "{}"'.format(self.c.get('stannisDemoInfo').get('packname')), shell=True,
+                         stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        logger.info('卸载stannisdemo--------')
+
+    def dumpStannisDemoLog(self):
+        context = self.shell('cat "{}"'.format(self.stannisDemoLogPath)).stdout.read().decode()\
+            .strip()
+        with open(self.c.result_path,'w') as f:
+            f.write(context)
+        logger.info('dump stannis demo成功')
+
+    def clearStannisDemoLog(self):
+        self.shell('rm "{}"'.format(self.stannisDemoLogPath))
+        logger.info('清空手机stannis demo成功')
+
+class Testcheck():
+    def __init__(self):
+        self.c = Config()
+
+    def getTestResultList(self,searchStr,index):
+        try:
+            fp = self.c.result_path
+            with open(fp,'r') as f:
+                content = f.read()
+            lastlist = []
+            findword = searchStr+'.{'+str(index)+'}' # 取该字符串后面n个字符数据
+            patter = re.compile(findword)
+            results = re.findall(patter,content)
+            for result in results:
+                lastlist.append(result)
+            list = set(lastlist)  # 对重复数据进行去重处理
+            print(list)
+        except IOError:
+            logger.error('result.log文件异常')
+
+
 
 if __name__ == '__main__':
-    d = Devices()
-    print(d.installStannisDemo())
+    tc = Testcheck()
+    tc.getTestResultList('vad_flow_id = ',4)
 
 
 

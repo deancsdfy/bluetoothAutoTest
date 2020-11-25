@@ -19,11 +19,13 @@ CASE_PATH = os.path.join(BASE_PATH,'case','case.yaml')
 # INTERFACE_PATH = os.path.join(BASE_PATH,'test','JieKou','interface.yaml')
 # EXE_PATH = os.path.join(BASE_PATH,'test','Autolt','test1.jpg')
 # EXCEL_PATH = os.path.join(BASE_PATH,'test','sqlconf','')
+RESULTLOG_PATH = os.path.join(BASE_PATH,'data','result.log')
 
 class Config():
-    def __init__(self, config=DATA_PATH,pack_path=PACK_PATH,case_data = CASE_PATH,screenshot = SCREENSHOTS_PATH):
+    def __init__(self, config=DATA_PATH,pack_path=PACK_PATH,result_path=RESULTLOG_PATH,case_data = CASE_PATH,screenshot = SCREENSHOTS_PATH):
         self.config = YamlReader(config).data
         self.pack_path = pack_path
+        self.result_path = result_path
         # self.case_data = YamlReader(case_data).data
         # self.interface_data = YamlReader(interface_data).data
         # self.exe_ptah = EXE_PATH

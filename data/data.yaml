@@ -1,4 +1,8 @@
-blueSwitchPx:
+blueSwitchXpath:
   Mi 10 : //*[@resource-id="android:id/checkbox"]
   Redmi Note 3 : //*[@resource-id="android:id/list"]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.CheckBox[1]
-  MI 8 : (0.316, 0.195)
+blueSwitchPx:
+ MI 8 : (0.326, 0.2)
+stannisDemoInfo:
+  packname : com.kwai.video.stannisdemo
+  logpath : /sdcard/stannis/stannis_debug_files/stannis_demo.log
