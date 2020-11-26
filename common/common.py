@@ -72,12 +72,18 @@ class Devices():
                          stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         logger.info('卸载stannisdemo--------')
 
-    def dumpStannisDemoLog(self):
+    def readStannisDemoLog(self):
         context = self.shell('cat "{}"'.format(self.stannisDemoLogPath)).stdout.read().decode()\
             .strip()
+        if len(context) == 0:
+            raise IOError('手机中没有找到log文件')
+        else:
+            return context
+
+    def saveTestResult(self,result):
         with open(self.c.result_path,'w') as f:
-            f.write(context)
-        logger.info('dump stannis demo成功')
+            f.write(result)
+        logger.info('保存测试结果成功')
 
     def clearStannisDemoLog(self):
         self.shell('rm "{}"'.format(self.stannisDemoLogPath))
@@ -85,29 +91,25 @@ class Devices():
 
 class Testcheck():
     def __init__(self):
-        self.c = Config()
+        self.d = Devices()
 
     def getTestResultList(self,searchStr,index):
-        try:
-            fp = self.c.result_path
-            with open(fp,'r') as f:
-                content = f.read()
-            lastlist = []
-            findword = searchStr+'.{'+str(index)+'}' # 取该字符串后面n个字符数据
-            patter = re.compile(findword)
-            results = re.findall(patter,content)
-            for result in results:
-                lastlist.append(result)
-            list = set(lastlist)  # 对重复数据进行去重处理
-            print(list)
-        except IOError:
-            logger.error('result.log文件异常')
-
-
+        content = self.d.readStannisDemoLog()
+        lastlist = []
+        findword = searchStr+'.{'+str(index)+'}' # 取该字符串后面n个字符数据
+        patter = re.compile(findword)
+        results = re.findall(patter,content)
+        for result in results:
+            lastlist.append(result)
+        list = set(lastlist)  # 对重复数据进行去重处理
+        print(list)
+        self.d.saveTestResult(content)
 
 if __name__ == '__main__':
-    tc = Testcheck()
-    tc.getTestResultList('vad_flow_id = ',4)
+    # tc = Testcheck()
+    # tc.getTestResultList('Stannis Microphone Info: MicrophoneI',20)
+    d = Devices()
+    d.installStannisDemo()
 
 
 
