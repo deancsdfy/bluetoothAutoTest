@@ -2,7 +2,7 @@
 import uiautomator2
 from time import sleep
 from  utils.logger import Logger
-from common import Devices
+from common.common import Devices
 
 logger = Logger(logger='systemMethon').getlog()
 
@@ -14,6 +14,7 @@ class System():
         devicesSN = self.d.getDevicesSN()
         self.dr = uiautomator2.connect(devicesSN)
         logger.info('sn：{} 手机连接成功'.format(devicesSN))
+        return self.dr
 
 
     def killAllApp(self):
@@ -59,16 +60,16 @@ class System():
             else:
                 logger.error('蓝牙关闭失败')
 
-    def startStannisDemo(self):
+    def openStannisDemo(self):
         self.dr.app_start('com.kwai.video.stannisdemo')
         logger.info('启动stannisDemo')
 
-    def stopStannisDemo(self):
+    def closeStannisDemo(self):
         self.dr.app_stop('com.kwai.video.stannisdemo')
         logger.info('结束stannisDemo')
 
-if __name__ == '__main__':
-    system = System()
-    system.connectDevices()
-    # system.killAllApp()
-    system.openBluetooth()
+# if __name__ == '__main__':
+#     system = System()
+#     system.connectDevices()
+#     # system.killAllApp()
+#     system.openBluetooth()

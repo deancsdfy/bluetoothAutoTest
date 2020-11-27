@@ -61,11 +61,11 @@ class Devices():
         px = eval(repr(px).replace('\'',''))
         return px
 
-    def installStannisDemo(self):
-        pack_path = self.c.pack_path
-        subprocess.Popen('adb install "{}"'.format(pack_path), shell=True, stdout=subprocess.PIPE,
-                         stderr=subprocess.PIPE)
-        logger.info('安装stannisdemo--------')
+    # def installStannisDemo(self):
+    #     pack_path = self.c.pack_path
+    #     subprocess.Popen('adb install "{}"'.format(pack_path), shell=True, stdout=subprocess.PIPE,
+    #                      stderr=subprocess.PIPE)
+    #     logger.info('安装stannisdemo--------')
 
     def unistallStannisDemo(self):
         subprocess.Popen('adb uninstall "{}"'.format(self.c.get('stannisDemoInfo').get('packname')), shell=True,
@@ -106,10 +106,7 @@ class Testcheck():
         self.d.saveTestResult(content)
 
 if __name__ == '__main__':
-    # tc = Testcheck()
-    # tc.getTestResultList('Stannis Microphone Info: MicrophoneI',20)
-    d = Devices()
-    d.installStannisDemo()
+    print(Devices().getDevicesSN())
 
 
 
